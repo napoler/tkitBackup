@@ -4,6 +4,8 @@
 
 ## 安装
 ```
+git clone https://github.com/napoler/tkitBackup.git
+cd tkitBackup
 pip install  -r requirements.txt 
 
 ```

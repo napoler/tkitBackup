@@ -13,7 +13,8 @@ print("设置数据库链接 例如：'mongodb://root:pass@localhost:27017/' 不
 x=input("数据库信息")
 #这里定义mongo数据
 if x:
-    client = pymongo.MongoClient('mongodb://root:pass@localhost:27017/')
+    # client = pymongo.MongoClient('mongodb://root:pass@localhost:27017/')
+    client = pymongo.MongoClient(x)
 else:
     client = pymongo.MongoClient("localhost", 27017)
 # client = pymongo.MongoClient('mongodb://root:pass@localhost:27017/')
