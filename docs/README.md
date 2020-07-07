@@ -15,3 +15,5 @@ pip install  -r requirements.txt
 python mongdb.py
 
 ```
+json导入到数据库里
+json2mongo.py
