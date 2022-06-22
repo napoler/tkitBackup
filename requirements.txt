@@ -1,4 +1,4 @@
 pymongo==3.10.1
-numpy==1.18.2
+numpy==1.22.0
 tkitFile==0.0.1.2
 tkitJson==0.0.0.3
